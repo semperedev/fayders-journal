@@ -1,0 +1,41 @@
+---
+layout: page
+---
+
+{%- if page.char -%}
+  <div class="island-data">
+    <div class="info">
+      <p>Nombre: <b>{{ page.char.name }}</b></p>
+      {%- if page.char.house -%}
+        {%- assign house = site.houses | where: "house", page.char.house -%}
+
+        <p>Casa: <b>{{ house | jsonify }}</b></p>
+      {%- endif -%}
+    </div>
+
+    {%- if page.char.img -%}
+      <div class="map">
+        <a
+          href="{{ BASE_URL }}/chars/{{ page.char.img }}"
+          data-lightbox="{{ page.char.img }}"
+          data-title="{{ page.title }}">
+
+          <img src="{{ BASE_URL }}/maps/{{ page.char.img }}" />
+        </a>
+      </div>
+    {%- endif -%}
+  </div>
+
+  <div class="island-data">
+    <div>
+      <p>FUE <span>{{ page.scores.str }}</span></p>
+      <p>CON <span>{{ page.scores.con }}</span></p>
+      <p>DES <span>{{ page.scores.dex }}</span></p>
+      <p>INT <span>{{ page.scores.int }}</span></p>
+      <p>SAB <span>{{ page.scores.wis }}</span></p>
+      <p>CAR <span>{{ page.scores.cha }}</span></p>
+    </div>
+  </div>
+{%- endif -%}
+
+{{ content }}

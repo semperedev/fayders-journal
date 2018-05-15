@@ -1,0 +1,73 @@
+defaults:
+  - scope:
+      path: ""
+      type: chars
+    values:
+      layout: char
+  - scope:
+      path: ""
+      type: eras
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: houses
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: islands
+    values:
+      layout: island
+
+title: Cuaderno de Fayder
+lang: es
+description: Cuaderno de viaje de Fayder Aerian.
+baseurl: "" # subpath, e.g. /blog
+url: "" # without trailing /
+
+collections:
+  chars:
+    title: Personajes
+    output: true
+    permalink: /personajes/:path/
+
+  eras:
+    title: Periodos
+    output: true
+    permalink: /periodos/:path/
+
+  factions:
+    title: Facciones
+    output: true
+    permalink: /facciones/:path/
+
+  houses:
+    title: Casas y Clanes
+    output: true
+    permalink: /casas/:path/
+
+  institutions:
+    title: Instituciones
+    output: true
+    permalink: /instituciones/:path/
+
+  islands:
+    title: Islas
+    output: true
+    permalink: /islas/:path/
+
+  legends:
+    title: Leyendas
+    output: true
+    permalink: /leyendas/:path/
+
+relative_links:
+  enabled: true
+  collections: true
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-relative-links

@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+{%- if page.island -%}
+  {%- if page.description -%}
+    <p>{{ page.description }}</p>
+  {%- endif -%}
+
+  <div class="island-data">
+    <div class="info">
+      <p>Localización: <b>{{ page.island.location }}</b></p>
+      <p>Razas predominantes: <b>{{ page.island.races }}</b></p>
+    </div>
+
+    {%- if page.island.map -%}
+      <div class="map">
+        <a
+          href="{{ BASE_URL }}/maps/{{ page.island.map }}"
+          data-lightbox="{{ page.island.map }}"
+          data-title="{{ page.title }}">
+
+          <img src="{{ BASE_URL }}/maps/{{ page.island.map }}" />
+        </a>
+      </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}
+
+{{ content }}

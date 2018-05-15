@@ -1,0 +1,35 @@
+---
+---
+
+@import "minima";
+
+.post-content {
+  img {
+    display: block;
+    margin: 0 auto;
+
+    @media (min-width: 400px) {
+      &.align-right {
+        float: right;
+        margin: 0 0 10px 10px;
+        max-width: 40%;
+      }
+    }
+  }
+}
+
+.island-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  padding: .5rem;
+  border: 1px solid;
+
+  .info,
+  .map {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: .5rem;
+  }
+}
