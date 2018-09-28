@@ -9,6 +9,8 @@ island:
 
 Sede la Alianza Humana y una de las ciudades con mayor poder comercial de Dexudal.
 
+Al sur de la isla se asienta la única [Escuela de Brujería](../_institutions/escuela-brujeria.md) aceptada por la Alianza Humana y el Consejo Élfico.
+
 ## Ciudades
 
 ### Isseth
