@@ -11,7 +11,17 @@ defaults:
       layout: page
   - scope:
       path: ""
+      type: factions
+    values:
+      layout: page
+  - scope:
+      path: ""
       type: houses
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: institutions
     values:
       layout: page
   - scope:

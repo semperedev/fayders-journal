@@ -21,12 +21,13 @@ A lo largo de sus viajes, Fayder Aerian realizó cientos de anotaciones en sus c
 
 * [Brielle](_islands/brielle.md)
 * [Chelle](_islands/chelle.md)
+* [Effingwall](_islands/effingwall.md)
 * [Gomelduhr](_islands/gomelduhr.md)
 * [Hogar de Wuls](_islands/hogar-de-wuls.md)
 * [Iacurath](_islands/iacurath.md)
 * [Iwomar](_islands/iwomar.md)
 * [Kreqys](_islands/kreqys.md)
-* [Laaldell](_islands/laaldell.md)
+* [Laraldell](_islands/laraldell.md)
 * [Lidor'ik](_islands/lidorik.md)
 * [Limedenn](_islands/limedenn.md)
 * [Miryks](_islands/miryks.md)
@@ -48,6 +49,7 @@ A lo largo de sus viajes, Fayder Aerian realizó cientos de anotaciones en sus c
 
 ### Facciones
 
+* [Amigos de Sagh](_factions/amigos-de-sagh.md)
 * [Navegantes del Cielo](_factions/navegantes-del-cielo.md)
 * [Seguidores de Zholar](_factions/seguidores-de-zholar.md)
 * [Sombras del Mar](_factions/sombras-del-mar.md)
